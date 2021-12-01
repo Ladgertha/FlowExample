@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
     private fun changeTextAndColor(flowValue: Boolean, button: Button) {
         button.text = Random.nextInt().toString()
         if (flowValue) {
-            button.setBackgroundColor(Color.GREEN)
+            button.setBackgroundColor(Color.BLACK)
         } else {
             button.setBackgroundColor(Color.GRAY)
         }
